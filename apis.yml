@@ -1,8 +1,24 @@
 aid: mycomedica
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mycomedica.png
 name: MycoMedica
-description: MycoMedica is a company surfaced as a portfolio company of obvious-ventures and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: MycoMedica Life Sciences, PBC is a clinical-stage biopharmaceutical company founded by
+  mycologist Paul Stamets and backed by Obvious Ventures, True Ventures, and Kittyhawk Ventures. The
+  company develops fungi-derived therapeutic drugs, including its lead psilocybin candidate MLS101 and
+  the "Stamets Stack" (a novel blend of niacin, psilocybin, and lion's mane), for the prevention and
+  treatment of psychiatric and neurological disorders. It raised $60 million in Series A funding in 2022
+  and is advancing pre-clinical and clinical research toward FDA approval. MycoMedica is a life-sciences
+  drug-development company and publishes no public developer API, documentation, or developer portal.
 url: https://raw.githubusercontent.com/api-evangelist/mycomedica/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,11 +26,19 @@ x-backed-by:
 - obvious-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-api-surface: none
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Biopharmaceutical
+- Life Sciences
+- Drug Development
+- Psychedelics
+- Mental Health
+- Neuroscience
+- Mycology
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,4 +47,9 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://mycomedica.bio
+  url: https://www.mycomedica.com
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
